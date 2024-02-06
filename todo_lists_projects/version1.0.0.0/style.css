@@ -1,0 +1,141 @@
+*{
+    font-family: monospace;
+    font-weight: bold;
+
+}
+html body{
+    background-color: rgba(255, 255, 255, 0.968);
+}
+
+.main{
+
+        width: 40%;
+        height: auto;
+        margin: auto;
+        background-color: rgb(255, 255, 255,0.1);
+        border-radius: 10px;
+     
+
+
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.845);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        transform: scale(0.8);
+
+}
+.main:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.9);
+}
+
+.low{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+ul{
+
+
+
+    
+    background-color: rgba(255, 228, 196, 0);
+
+}
+
+ul li {
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin: 20px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.837);
+    list-style: none;
+    padding: 20px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 18px;
+    
+    box-shadow: 0px 8px 10px black;
+}
+
+ul li button{
+    margin-left: 40px;
+    padding: 5px;
+    border-radius: 50px;
+    background-color: rgba(255, 229, 30, 0.948);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    cursor: pointer;
+ 
+}
+
+
+
+.upp{
+     margin: auto;
+     justify-content: space-between;
+     background-color: rgba(0, 0, 255, 0);
+     width: 450px;
+     padding-top: 20px;
+}
+.inner{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+input{
+    padding: 10px;
+    border-radius: 50px;
+    width: 300px;
+
+}
+
+.upp button{
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgb(78, 247, 0);
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.298);
+   
+}
+
+.upp button:hover{
+    transition: all 0.6s ease-out;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+ul li button:hover{
+    
+ 
+    
+    background-color: rgba(213, 20, 20, 0.948);
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    transition: all 0.2s ease-out ;
+    transform: scale(1.2);
+
+
+ 
+}
+ul li:hover {
+    transition: all 0.3s ease-out;
+    transform: scale(1.1);
+}
+
+
+/* -------------------------------menu  */
+
+
+
+.main h1{
+    padding-top: 10px;
+}

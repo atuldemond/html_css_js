@@ -356,3 +356,66 @@
 // console.log(err)
 
 // })
+//--------------------------------------------------------------oops------------------------------------
+
+// function Person(name,age){
+//   const Person= {
+//     name: name,
+//     age: age,
+
+
+
+    
+//     talk(){
+//         console.log("Hii My name is Talk");
+//     }
+
+//   }
+//   return Person;
+ 
+
+// }
+
+// let p1 = Person("Atul Demond",19);
+// let p2=Person("Mohan Kumar",45) 
+
+
+
+
+
+
+
+// function Person(name,age){
+//     this.name=name;
+//     this.age=age;
+
+
+// }
+
+// Person.prototype.add=(a,b)=> {
+
+//   return a+b
+// }
+
+// let p1 = new Person("Atul Demond",20);
+// let p2 = new Person("Mohan Kumar", 30);  
+
+
+// p1.add()===p2.add() getting false result----
+
+// class Person{
+ 
+//     constructor(name,age){
+//         this.name=name;
+//         this.age=age;
+//     }
+//     add(){
+//         console.log("Hello")
+//     }
+
+// }
+
+// const p1 = new Person("Mohan",20);
+// const p2 = new Person("sohan",21); 
+
+// // p1.add === p2.add    getting true value
